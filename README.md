@@ -1,5 +1,9 @@
 # README
 
+HOME -
+-should get home
+-should get root
+
 RECIPE - 
 -recipe should be valid
 -name should be present
@@ -14,3 +18,5 @@ CHEF -
 -size restrictions on email and chefname
 -email address should be valid format
 -email should be unique, case insensitive
+
+
