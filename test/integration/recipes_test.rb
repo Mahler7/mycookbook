@@ -29,7 +29,7 @@ class RecipesTest < ActionDispatch::IntegrationTest
     assert_match @chef.chefname, response.body
   end
 
-  test "create new valid recipe" do
+  test "create new valid recipes" do
     get new_recipe_path
     assert_template 'recipes/new'
     name_of_recipe = "chicken saute"
