@@ -5,5 +5,5 @@ class Recipe < ApplicationRecord
   
   belongs_to :chef
   
-  default_scope -> { order(updated_at: :desc)}
+  default_scope -> { order(updated_at: :desc) }
 end
