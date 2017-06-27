@@ -4,6 +4,24 @@ $theme-color: #073b15;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.main-footer {
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+.container {
+  min-height: 100%;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -57,14 +75,23 @@ h2 {
   text-decoration: none;
 }
 .footer {
-  margin-top: 45px;
+  margin-top: -50px;
   border-top: 1px solid #eaeaea;
   color: #fff;
   background-color: $navbar-default-bg;
   height: 50px;
   padding-left: 10px;
   padding-right: 10px;
+  position: relative;
+  clear: both;
 }
+.footer ul {
+  list-style: none;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
 
 // .footer {
 //   background-color: $navbar-default-bg;
