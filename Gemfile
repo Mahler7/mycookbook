@@ -36,6 +36,7 @@ gem 'bootstrap-will_paginate', '~> 1.0'
 gem 'carrierwave', '~> 1.1'
 gem 'mini_magick', '~> 4.7', '>= 4.7.2'
 gem 'fog', '~> 1.40'
+gem 'rb-readline', '~> 0.5.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
