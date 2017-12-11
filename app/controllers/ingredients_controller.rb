@@ -3,7 +3,7 @@ class IngredientsController < ApplicationController
   before_action :require_admin, only: [:new, :create, :edit, :update]
 
   def index
-    @ingredients = Ingredient.paginate(page: params[:page], per_page: 5)
+    @ingredients = Ingredient.paginate(page: params[:page], per_page: 5).order('name')
   end
 
   def new
